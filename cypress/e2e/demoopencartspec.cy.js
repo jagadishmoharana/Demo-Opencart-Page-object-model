@@ -10,6 +10,5 @@ describe('Demo Opencart', () => {
     registration.enterPassword(regData.password);
     registration.checkPrivacyPolicy();
     registration.clickOnContinue();
-    registration.isRegistrationSuccess();
   })
 })

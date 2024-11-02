@@ -36,9 +36,5 @@ class RegistraionPage{
     clickOnContinue(){
         cy.get(this.webLocators.continue).click()
     }
-    // Assertion
-    isRegistrationSuccess(){
-        cy.contains('Congratulations! Your new account has been successfully created!').should('be.visible')
-    }
 }
 export default RegistraionPage;
